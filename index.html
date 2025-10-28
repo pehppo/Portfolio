@@ -1,0 +1,215 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pedro | Portfólio</title>
+    <link rel="icon" type="image/svg+xml" href="assets/img/icone.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>
+        <div class="container">
+            <nav>
+                <ul class="menu">
+                    <li><a href="#home">Início</a></li>
+                    <li><a href="#sobre">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
+                    <li><a href="#habilidades">Habilidades</a></li>
+                    <li><a href="#contato">Contato</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section id="home" class="hero-section">
+            <div class="hero-content">
+                <div class="profile-image"> 
+                    <img src="assets/img/img.jpeg" alt="Pedro Stevanato">
+                </div>
+                <h1 class="hero-name">Pedro Stevanato</h1>
+                <p class="hero-title">Desenvolvedor em Formação</p>
+            </div>
+        </section>
+
+        <section id="sobre">
+            <h2 class="section-title">Sobre Mim</h2>
+            <div class="about-content">
+                <p>Olá! Eu sou o Pedro, estudante de Sistemas de Informação e apaixonado por tecnologia. Estou
+                    desenvolvendo minhas habilidades em Python, Flutter e desenvolvimento web, aprendendo a cada
+                    novo projeto e transformando ideias em código.</p>
+            </div>
+        </section>
+
+        <section id="projetos">
+            <h2 class="section-title">Meus Projetos</h2>
+            <div class="projects-carousel">
+                <a href="#passaporte-literario" class="project-item" data-project="passaporte-literario">
+                    <div class="project-image">
+                        <img src="assets/img/passaporte-literario.png" alt="Passaporte Literário">
+                    </div>
+                    <div class="project-info">
+                        <h3 class="project-title">Passaporte Literário</h3>
+                        <p class="project-description">Aplicativo em Flutter para registrar suas leituras.</p>
+                    </div>
+                </a>
+            </div>
+        </section>
+
+        <section id="habilidades">
+            <h2 class="section-title">Habilidades</h2>
+            <div class="skills-container">
+                <div class="skill-item skill-html">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5" class="skill-icon">
+                    <span>HTML</span>
+                </div>
+                <div class="skill-item skill-css">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3" class="skill-icon">
+                    <span>CSS</span>
+                </div>
+                <div class="skill-item skill-javascript">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript" class="skill-icon">
+                    <span>JavaScript</span>
+                </div>
+                <div class="skill-item skill-c">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/c/c-original.svg" alt="C" class="skill-icon">
+                    <span>C</span>
+                </div>
+                <div class="skill-item skill-python">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original.svg" alt="Python" class="skill-icon">
+                    <span>Python</span>
+                </div>
+                <div class="skill-item skill-flutter">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/flutter/flutter-original.svg" alt="Flutter" class="skill-icon">
+                    <span>Flutter</span>
+                </div>
+                <div class="skill-item skill-mysql">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" alt="MySQL" class="skill-icon">
+                    <span>MySQL</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="contato">
+            <h2 class="section-title">Contato</h2>
+
+            <form class="contact-form" action="https://formspree.io/f/mpwopdak" method="POST" id="contactForm">
+                <p class="form-intro">Entre em contato comigo através do formulário ou dos canais abaixo:</p>
+
+                <div class="success-message" id="successMessage" style="display: none;">
+                    <p>✅ Mensagem enviada com sucesso! Obrigado pelo contato.</p>
+                </div>
+
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Nome" required>
+                </div>
+
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="E-mail" required>
+                </div>
+
+                <div class="form-group">
+                    <textarea id="message" name="message" rows="5" placeholder="Mensagem" required></textarea>
+                </div>
+
+                <button type="submit" class="form-submit">Enviar Mensagem</button>
+            </form>
+
+            <div class="contact-links">
+                <a href="https://github.com/pehppo/" target="_blank" rel="noopener noreferrer" class="contact-link">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
+                        alt="GitHub" class="contact-icon">
+                    <span>GitHub</span>
+                </a>
+                <a href="https://www.linkedin.com/in/pehstevanato" target="_blank" rel="noopener noreferrer"
+                    class="contact-link">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
+                        alt="LinkedIn" class="contact-icon">
+                    <span>LinkedIn</span>
+                </a>
+                <a href="mailto:pehstevanato@gmail.com" class="contact-link">
+                    <svg class="contact-icon" viewBox="0 0 24 24" fill="currentColor"
+                        xmlns="http://www.w3.org/2000/svg">
+                        <path
+                            d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.89 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5-8-5V6l8 5 8-5v2z" />
+                    </svg>
+                    <span>E-mail</span>
+                </a>
+            </div>
+        </section>
+
+        <section id="passaporte-literario" class="project-details" style="display: none;">
+            <h2 class="section-title">Passaporte Literário</h2>
+            <div class="project-details-content">
+                <div class="project-gallery">
+                    <div class="gallery-main">
+                        <div class="gallery-images">
+                            <img src="assets/img/app-01.jpg" alt="Passaporte Literário - Tela 1"
+                                class="gallery-image active">
+                            <img src="assets/img/app-02.jpg" alt="Passaporte Literário - Tela 2" class="gallery-image">
+                            <img src="assets/img/app-03.jpg" alt="Passaporte Literário - Tela 3" class="gallery-image">
+                            <img src="assets/img/app-04.jpg" alt="Passaporte Literário - Tela 4" class="gallery-image">
+                            <img src="assets/img/app-05.jpg" alt="Passaporte Literário - Tela 5" class="gallery-image">
+                            <img src="assets/img/app-06.jpg" alt="Passaporte Literário - Tela 6" class="gallery-image">
+                            <img src="assets/img/app-07.jpg" alt="Passaporte Literário - Tela 7" class="gallery-image">
+                            <img src="assets/img/app-08.jpg" alt="Passaporte Literário - Tela 8" class="gallery-image">
+                            <img src="assets/img/app-09.jpg" alt="Passaporte Literário - Tela 9" class="gallery-image">
+                            <img src="assets/img/app-10.jpg" alt="Passaporte Literário - Tela 10" class="gallery-image">
+                        </div>
+                        <button class="gallery-prev" onclick="changeImage(-1)">‹</button>
+                        <button class="gallery-next" onclick="changeImage(1)">›</button>
+                    </div>
+                    <div class="gallery-thumbnails">
+                        <img src="assets/img/app-01.jpg" alt="Thumbnail 1" class="thumbnail active"
+                            onclick="showImage(0)">
+                        <img src="assets/img/app-02.jpg" alt="Thumbnail 2" class="thumbnail" onclick="showImage(1)">
+                        <img src="assets/img/app-03.jpg" alt="Thumbnail 3" class="thumbnail" onclick="showImage(2)">
+                        <img src="assets/img/app-04.jpg" alt="Thumbnail 4" class="thumbnail" onclick="showImage(3)">
+                        <img src="assets/img/app-05.jpg" alt="Thumbnail 5" class="thumbnail" onclick="showImage(4)">
+                        <img src="assets/img/app-06.jpg" alt="Thumbnail 6" class="thumbnail" onclick="showImage(5)">
+                        <img src="assets/img/app-07.jpg" alt="Thumbnail 7" class="thumbnail" onclick="showImage(6)">
+                        <img src="assets/img/app-08.jpg" alt="Thumbnail 8" class="thumbnail" onclick="showImage(7)">
+                        <img src="assets/img/app-09.jpg" alt="Thumbnail 9" class="thumbnail" onclick="showImage(8)">
+                        <img src="assets/img/app-10.jpg" alt="Thumbnail 10" class="thumbnail" onclick="showImage(9)">
+                    </div>
+                </div>
+                <div class="project-description-full">
+                    <h3>Sobre o Projeto</h3>
+                    <p>O Passaporte Literário é um aplicativo desenvolvido em Flutter que permite aos usuários registrar
+                        e acompanhar suas leituras de forma organizada e visual.</p>
+
+                    <h3>Funcionalidades</h3>
+                    <ul>
+                        <li>Adicionar e editar livros lidos</li>
+                        <li>Diário de leitura</li>
+                        <li>Metas e estatísticas</li>
+                        <li>Integração com Google Books API</li>
+                    </ul>
+
+                    <h3>Tecnologias Utilizadas</h3>
+                    <div class="tech-stack">
+                        <span class="tech-item">Flutter</span>
+                        <span class="tech-item">Dart</span>
+                        <span class="tech-item">Google Fonts</span>
+                        <span class="tech-item">Shared Preferences</span>
+                        <span class="tech-item">Image Picker</span>
+                        <span class="tech-item">HTTP</span>
+                    </div>
+
+                    <div class="project-actions">
+                        <a href="https://github.com/pehppo/Passaporte-Literario" class="btn-primary">Ver no GitHub</a>
+                        <button class="btn-secondary" onclick="goBackToProjects()">Voltar aos Projetos</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

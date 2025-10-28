@@ -1,0 +1,8 @@
+{
+  "projects": {
+    "default": "pedrost-dev",
+    "prod": "pedrost-dev"
+  },
+  "targets": {},
+  "etags": {}
+}
